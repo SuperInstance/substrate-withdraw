@@ -1,0 +1,19 @@
+{
+  "name": "@superinstance/substrate-withdraw",
+  "version": "0.1.0",
+  "description": "WITHDRAW opcode (R10): pull a published observation into private scope.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "keywords": [
+    "withdraw",
+    "observation",
+    "substrate",
+    "jev-quilt",
+    "doctrine"
+  ],
+  "author": "SuperInstance",
+  "license": "MIT",
+  "dependencies": {
+    "@superinstance/observation-primitive": "file:../observation-primitive"
+  }
+}
